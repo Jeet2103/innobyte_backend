@@ -32,6 +32,35 @@ This API allows users to:
 
 ---
 
+## ⚙️ Tools & Technologies Used
+
+- **Python 3.10**
+- **Flask** — Web framework
+- **Flask-JWT-Extended** — Authentication
+- **SQLAlchemy** — ORM for PostgreSQL
+- **Marshmallow** — Data serialization
+- **Flask-Migrate** — Database migrations
+- **PostgreSQL** — Relational database
+- **Swagger UI** — API documentation
+- **Pytest** — Automated testing
+
+---
+
+## 🧭 Project Methodology
+
+This project was developed using a modular, scalable, and test-driven approach:
+
+1. **Requirement Analysis** — Define essential routes and functionality.
+2. **Database Design** — Normalize schemas and set up relationships.
+3. **API Development** — Build routes for users, posts, and comments.
+4. **Authentication** — Secure endpoints using JWT.
+5. **Testing** — Write unit and integration tests using Pytest.
+6. **Documentation** — Use Swagger UI and markdown for developer usability.
+7. **Logging & Error Handling** — Robust logging for maintainability.
+8. **Deployment Ready** — Portable with environment configuration support.
+
+---
+
 ## 📁 Codebase Structure
 
 ```
