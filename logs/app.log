@@ -1,0 +1,448 @@
+2025-07-08 23:04:21 - __main__ - run.py - 6 - INFO - Function started
+[2025-07-08 23:06:07] - [__main__] - [run.py] - 6 - INFO - Function started
+[2025-07-13 23:29:03] - [__main__] - [run.py] - 15 - INFO - Flask application created successfully.
+[2025-07-13 23:29:03] - [__main__] - [run.py] - 40 - INFO - Starting app on port 5000
+[2025-07-13 23:29:04] - [__main__] - [run.py] - 15 - INFO - Flask application created successfully.
+[2025-07-13 23:29:04] - [__main__] - [run.py] - 40 - INFO - Starting app on port 5000
+[2025-07-13 23:37:53] - [__main__] - [run.py] - 15 - INFO - Flask application created successfully.
+[2025-07-13 23:37:53] - [__main__] - [run.py] - 40 - INFO - Starting app on port 5000
+[2025-07-13 23:37:53] - [__main__] - [run.py] - 15 - INFO - Flask application created successfully.
+[2025-07-13 23:37:53] - [__main__] - [run.py] - 40 - INFO - Starting app on port 5000
+[2025-07-15 13:45:47] - [app.config] - [config.py] - 7 - INFO - Loading environment variables from .env file.
+[2025-07-15 13:45:47] - [app.config] - [config.py] - 27 - INFO - SQLALCHEMY_DATABASE_URI loaded successfully.
+[2025-07-15 13:45:47] - [app.config] - [config.py] - 33 - INFO - JWT_SECRET_KEY loaded successfully.
+[2025-07-15 13:45:47] - [app.config] - [config.py] - 39 - INFO - DEBUG mode set to: True
+[2025-07-15 13:45:47] - [app.config] - [config.py] - 40 - INFO - Configuration loaded successfully.
+[2025-07-15 13:45:48] - [app.extensions] - [extensions.py] - 9 - INFO - Starting Flask extension initialization.
+[2025-07-15 13:45:48] - [app.extensions] - [extensions.py] - 15 - INFO - SQLAlchemy initialized successfully.
+[2025-07-15 13:45:48] - [app.extensions] - [extensions.py] - 23 - INFO - Flask-Migrate initialized successfully.
+[2025-07-15 13:45:48] - [app.extensions] - [extensions.py] - 31 - INFO - JWTManager initialized successfully.
+[2025-07-15 13:45:48] - [app.extensions] - [extensions.py] - 39 - INFO - Marshmallow initialized successfully.
+[2025-07-15 13:45:48] - [app.extensions] - [extensions.py] - 44 - INFO - All Flask extensions initialized without errors.
+[2025-07-15 13:45:48] - [app.models.user] - [user.py] - 28 - INFO - User model loaded and mapped to table 'users'
+[2025-07-15 13:45:48] - [app.models.post] - [post.py] - 33 - INFO - Post model loaded and mapped to table 'posts'
+[2025-07-15 13:45:48] - [app.models.comment] - [comment.py] - 22 - INFO - Comment model loaded and mapped to table 'comments'
+[2025-07-15 13:45:48] - [app.models] - [__init__.py] - 12 - INFO - All model classes imported: User, Post, Comment
+[2025-07-15 13:45:48] - [app.schemas.post_schema] - [post_schema.py] - 8 - INFO - Initializing PostSchema for serialization and deserialization.
+[2025-07-15 13:45:49] - [app.schemas.post_schema] - [post_schema.py] - 37 - INFO - PostSchema instances initialized successfully.
+[2025-07-15 13:45:49] - [app.schemas.comment_schema] - [comment_schema.py] - 8 - INFO - Initializing CommentSchema for Marshmallow serialization.
+[2025-07-15 13:45:49] - [app.schemas.comment_schema] - [comment_schema.py] - 40 - INFO - CommentSchema instances created successfully.
+[2025-07-15 13:45:49] - [tests.conftest] - [conftest.py] - 15 - INFO - Setting up test client with in-memory SQLite database.
+[2025-07-15 13:45:49] - [app] - [__init__.py] - 21 - INFO - Flask app instance created.
+[2025-07-15 13:45:49] - [app] - [__init__.py] - 25 - INFO - Configuration loaded into Flask app.
+[2025-07-15 13:45:49] - [app] - [__init__.py] - 29 - INFO - SQLAlchemy initialized.
+[2025-07-15 13:45:49] - [app] - [__init__.py] - 32 - INFO - Flask-Migrate initialized.
+[2025-07-15 13:45:49] - [app] - [__init__.py] - 35 - INFO - JWT Manager initialized.
+[2025-07-15 13:45:49] - [app] - [__init__.py] - 38 - INFO - Marshmallow initialized.
+[2025-07-15 13:45:49] - [app] - [__init__.py] - 48 - INFO - Blueprints registered successfully.
+[2025-07-15 13:45:49] - [app] - [__init__.py] - 50 - INFO - Flask application setup completed successfully.
+[2025-07-15 13:45:49] - [tests.conftest] - [conftest.py] - 34 - INFO - Database tables created successfully.
+[2025-07-15 13:45:49] - [tests.test_auth] - [test_auth.py] - 14 - INFO - Starting test: test_register_and_login
+[2025-07-15 13:45:49] - [app.services.auth_service] - [auth_service.py] - 23 - INFO - Attempting to register user: testuser (test@example.com)
+[2025-07-15 13:45:49] - [app.services.auth_service] - [auth_service.py] - 23 - INFO - Attempting to register user: testuser (test@example.com)
+[2025-07-15 13:45:49] - [app.services.auth_service] - [auth_service.py] - 41 - INFO - User registered successfully: testuser (ID: 5)
+[2025-07-15 13:45:49] - [app.services.auth_service] - [auth_service.py] - 41 - INFO - User registered successfully: testuser (ID: 5)
+[2025-07-15 13:45:49] - [app.routes.auth_routes] - [auth_routes.py] - 73 - INFO - User registered successfully: testuser (ID: 5)
+[2025-07-15 13:45:49] - [app.routes.auth_routes] - [auth_routes.py] - 73 - INFO - User registered successfully: testuser (ID: 5)
+[2025-07-15 13:45:49] - [tests.test_auth] - [test_auth.py] - 26 - INFO - User registration test passed.
+[2025-07-15 13:45:49] - [app.services.auth_service] - [auth_service.py] - 62 - INFO - Authenticating user: testuser
+[2025-07-15 13:45:49] - [app.services.auth_service] - [auth_service.py] - 62 - INFO - Authenticating user: testuser
+[2025-07-15 13:45:49] - [app.services.auth_service] - [auth_service.py] - 69 - INFO - User authenticated successfully: testuser
+[2025-07-15 13:45:49] - [app.services.auth_service] - [auth_service.py] - 69 - INFO - User authenticated successfully: testuser
+[2025-07-15 13:45:49] - [app.routes.auth_routes] - [auth_routes.py] - 115 - INFO - User logged in successfully: testuser (ID: 5)
+[2025-07-15 13:45:49] - [app.routes.auth_routes] - [auth_routes.py] - 115 - INFO - User logged in successfully: testuser (ID: 5)
+[2025-07-15 13:45:49] - [tests.test_auth] - [test_auth.py] - 39 - INFO - User login test passed.
+[2025-07-15 13:52:22] - [app.config] - [config.py] - 7 - INFO - Loading environment variables from .env file.
+[2025-07-15 13:52:22] - [app.config] - [config.py] - 27 - INFO - SQLALCHEMY_DATABASE_URI loaded successfully.
+[2025-07-15 13:52:22] - [app.config] - [config.py] - 33 - INFO - JWT_SECRET_KEY loaded successfully.
+[2025-07-15 13:52:22] - [app.config] - [config.py] - 39 - INFO - DEBUG mode set to: True
+[2025-07-15 13:52:22] - [app.config] - [config.py] - 40 - INFO - Configuration loaded successfully.
+[2025-07-15 13:52:23] - [app.extensions] - [extensions.py] - 9 - INFO - Starting Flask extension initialization.
+[2025-07-15 13:52:23] - [app.extensions] - [extensions.py] - 15 - INFO - SQLAlchemy initialized successfully.
+[2025-07-15 13:52:23] - [app.extensions] - [extensions.py] - 23 - INFO - Flask-Migrate initialized successfully.
+[2025-07-15 13:52:23] - [app.extensions] - [extensions.py] - 31 - INFO - JWTManager initialized successfully.
+[2025-07-15 13:52:23] - [app.extensions] - [extensions.py] - 39 - INFO - Marshmallow initialized successfully.
+[2025-07-15 13:52:23] - [app.extensions] - [extensions.py] - 44 - INFO - All Flask extensions initialized without errors.
+[2025-07-15 13:52:23] - [app.models.user] - [user.py] - 28 - INFO - User model loaded and mapped to table 'users'
+[2025-07-15 13:52:23] - [app.models.post] - [post.py] - 33 - INFO - Post model loaded and mapped to table 'posts'
+[2025-07-15 13:52:23] - [app.models.comment] - [comment.py] - 22 - INFO - Comment model loaded and mapped to table 'comments'
+[2025-07-15 13:52:23] - [app.models] - [__init__.py] - 12 - INFO - All model classes imported: User, Post, Comment
+[2025-07-15 13:52:23] - [app.schemas.post_schema] - [post_schema.py] - 8 - INFO - Initializing PostSchema for serialization and deserialization.
+[2025-07-15 13:52:23] - [app.schemas.post_schema] - [post_schema.py] - 37 - INFO - PostSchema instances initialized successfully.
+[2025-07-15 13:52:23] - [app.schemas.comment_schema] - [comment_schema.py] - 8 - INFO - Initializing CommentSchema for Marshmallow serialization.
+[2025-07-15 13:52:23] - [app.schemas.comment_schema] - [comment_schema.py] - 40 - INFO - CommentSchema instances created successfully.
+[2025-07-15 13:52:23] - [__main__] - [run.py] - 16 - INFO - Checking and creating database if necessary...
+[2025-07-15 13:52:23] - [db.create_db] - [create_db.py] - 26 - INFO - Connecting to default 'postgres' database to check/create target database.
+[2025-07-15 13:52:23] - [db.create_db] - [create_db.py] - 45 - INFO - Database 'blogdb' created successfully.
+[2025-07-15 13:52:23] - [db.create_db] - [create_db.py] - 62 - INFO - Connecting to 'blogdb' database to create tables.
+[2025-07-15 13:52:23] - [db.create_db] - [create_db.py] - 105 - INFO - Tables created successfully in the database.
+[2025-07-15 13:52:23] - [__main__] - [run.py] - 19 - INFO - Database and tables are ready.
+[2025-07-15 13:52:23] - [app] - [__init__.py] - 21 - INFO - Flask app instance created.
+[2025-07-15 13:52:23] - [app] - [__init__.py] - 25 - INFO - Configuration loaded into Flask app.
+[2025-07-15 13:52:23] - [app] - [__init__.py] - 29 - INFO - SQLAlchemy initialized.
+[2025-07-15 13:52:23] - [app] - [__init__.py] - 32 - INFO - Flask-Migrate initialized.
+[2025-07-15 13:52:23] - [app] - [__init__.py] - 35 - INFO - JWT Manager initialized.
+[2025-07-15 13:52:23] - [app] - [__init__.py] - 38 - INFO - Marshmallow initialized.
+[2025-07-15 13:52:23] - [app] - [__init__.py] - 48 - INFO - Blueprints registered successfully.
+[2025-07-15 13:52:23] - [app] - [__init__.py] - 50 - INFO - Flask application setup completed successfully.
+[2025-07-15 13:52:23] - [__main__] - [run.py] - 26 - INFO - Flask application instance created successfully.
+[2025-07-15 13:52:23] - [__main__] - [run.py] - 51 - INFO - Starting Flask app on http://0.0.0.0:5000
+[2025-07-15 13:52:23] - [app.config] - [config.py] - 7 - INFO - Loading environment variables from .env file.
+[2025-07-15 13:52:23] - [app.config] - [config.py] - 27 - INFO - SQLALCHEMY_DATABASE_URI loaded successfully.
+[2025-07-15 13:52:23] - [app.config] - [config.py] - 33 - INFO - JWT_SECRET_KEY loaded successfully.
+[2025-07-15 13:52:23] - [app.config] - [config.py] - 39 - INFO - DEBUG mode set to: True
+[2025-07-15 13:52:23] - [app.config] - [config.py] - 40 - INFO - Configuration loaded successfully.
+[2025-07-15 13:52:24] - [app.extensions] - [extensions.py] - 9 - INFO - Starting Flask extension initialization.
+[2025-07-15 13:52:24] - [app.extensions] - [extensions.py] - 15 - INFO - SQLAlchemy initialized successfully.
+[2025-07-15 13:52:24] - [app.extensions] - [extensions.py] - 23 - INFO - Flask-Migrate initialized successfully.
+[2025-07-15 13:52:24] - [app.extensions] - [extensions.py] - 31 - INFO - JWTManager initialized successfully.
+[2025-07-15 13:52:24] - [app.extensions] - [extensions.py] - 39 - INFO - Marshmallow initialized successfully.
+[2025-07-15 13:52:24] - [app.extensions] - [extensions.py] - 44 - INFO - All Flask extensions initialized without errors.
+[2025-07-15 13:52:24] - [app.models.user] - [user.py] - 28 - INFO - User model loaded and mapped to table 'users'
+[2025-07-15 13:52:24] - [app.models.post] - [post.py] - 33 - INFO - Post model loaded and mapped to table 'posts'
+[2025-07-15 13:52:24] - [app.models.comment] - [comment.py] - 22 - INFO - Comment model loaded and mapped to table 'comments'
+[2025-07-15 13:52:24] - [app.models] - [__init__.py] - 12 - INFO - All model classes imported: User, Post, Comment
+[2025-07-15 13:52:24] - [app.schemas.post_schema] - [post_schema.py] - 8 - INFO - Initializing PostSchema for serialization and deserialization.
+[2025-07-15 13:52:24] - [app.schemas.post_schema] - [post_schema.py] - 37 - INFO - PostSchema instances initialized successfully.
+[2025-07-15 13:52:24] - [app.schemas.comment_schema] - [comment_schema.py] - 8 - INFO - Initializing CommentSchema for Marshmallow serialization.
+[2025-07-15 13:52:24] - [app.schemas.comment_schema] - [comment_schema.py] - 40 - INFO - CommentSchema instances created successfully.
+[2025-07-15 13:52:24] - [__main__] - [run.py] - 16 - INFO - Checking and creating database if necessary...
+[2025-07-15 13:52:24] - [db.create_db] - [create_db.py] - 26 - INFO - Connecting to default 'postgres' database to check/create target database.
+[2025-07-15 13:52:24] - [db.create_db] - [create_db.py] - 47 - INFO - ℹDatabase 'blogdb' already exists.
+[2025-07-15 13:52:24] - [db.create_db] - [create_db.py] - 62 - INFO - Connecting to 'blogdb' database to create tables.
+[2025-07-15 13:52:24] - [db.create_db] - [create_db.py] - 105 - INFO - Tables created successfully in the database.
+[2025-07-15 13:52:24] - [__main__] - [run.py] - 19 - INFO - Database and tables are ready.
+[2025-07-15 13:52:24] - [app] - [__init__.py] - 21 - INFO - Flask app instance created.
+[2025-07-15 13:52:24] - [app] - [__init__.py] - 25 - INFO - Configuration loaded into Flask app.
+[2025-07-15 13:52:24] - [app] - [__init__.py] - 29 - INFO - SQLAlchemy initialized.
+[2025-07-15 13:52:24] - [app] - [__init__.py] - 32 - INFO - Flask-Migrate initialized.
+[2025-07-15 13:52:24] - [app] - [__init__.py] - 35 - INFO - JWT Manager initialized.
+[2025-07-15 13:52:24] - [app] - [__init__.py] - 38 - INFO - Marshmallow initialized.
+[2025-07-15 13:52:24] - [app] - [__init__.py] - 48 - INFO - Blueprints registered successfully.
+[2025-07-15 13:52:24] - [app] - [__init__.py] - 50 - INFO - Flask application setup completed successfully.
+[2025-07-15 13:52:24] - [__main__] - [run.py] - 26 - INFO - Flask application instance created successfully.
+[2025-07-15 13:52:24] - [__main__] - [run.py] - 51 - INFO - Starting Flask app on http://0.0.0.0:5000
+[2025-07-15 13:55:06] - [app.services.auth_service] - [auth_service.py] - 23 - INFO - Attempting to register user: Jeet2003 (jeetnandigrami2003@gmail.com)
+[2025-07-15 13:55:06] - [app.services.auth_service] - [auth_service.py] - 23 - INFO - Attempting to register user: Jeet2003 (jeetnandigrami2003@gmail.com)
+[2025-07-15 13:55:06] - [app.services.auth_service] - [auth_service.py] - 41 - INFO - User registered successfully: Jeet2003 (ID: 1)
+[2025-07-15 13:55:06] - [app.services.auth_service] - [auth_service.py] - 41 - INFO - User registered successfully: Jeet2003 (ID: 1)
+[2025-07-15 13:55:06] - [app.routes.auth_routes] - [auth_routes.py] - 73 - INFO - User registered successfully: Jeet2003 (ID: 1)
+[2025-07-15 13:55:06] - [app.routes.auth_routes] - [auth_routes.py] - 73 - INFO - User registered successfully: Jeet2003 (ID: 1)
+[2025-07-15 15:37:15] - [app.config] - [config.py] - 7 - INFO - Loading environment variables from .env file.
+[2025-07-15 15:37:15] - [app.config] - [config.py] - 27 - INFO - SQLALCHEMY_DATABASE_URI loaded successfully.
+[2025-07-15 15:37:15] - [app.config] - [config.py] - 33 - INFO - JWT_SECRET_KEY loaded successfully.
+[2025-07-15 15:37:15] - [app.config] - [config.py] - 39 - INFO - DEBUG mode set to: True
+[2025-07-15 15:37:15] - [app.config] - [config.py] - 40 - INFO - Configuration loaded successfully.
+[2025-07-15 15:37:17] - [app.extensions] - [extensions.py] - 9 - INFO - Starting Flask extension initialization.
+[2025-07-15 15:37:17] - [app.extensions] - [extensions.py] - 15 - INFO - SQLAlchemy initialized successfully.
+[2025-07-15 15:37:17] - [app.extensions] - [extensions.py] - 23 - INFO - Flask-Migrate initialized successfully.
+[2025-07-15 15:37:17] - [app.extensions] - [extensions.py] - 31 - INFO - JWTManager initialized successfully.
+[2025-07-15 15:37:17] - [app.extensions] - [extensions.py] - 39 - INFO - Marshmallow initialized successfully.
+[2025-07-15 15:37:17] - [app.extensions] - [extensions.py] - 44 - INFO - All Flask extensions initialized without errors.
+[2025-07-15 15:37:17] - [app.models.user] - [user.py] - 28 - INFO - User model loaded and mapped to table 'users'
+[2025-07-15 15:37:17] - [app.models.post] - [post.py] - 33 - INFO - Post model loaded and mapped to table 'posts'
+[2025-07-15 15:37:17] - [app.models.comment] - [comment.py] - 22 - INFO - Comment model loaded and mapped to table 'comments'
+[2025-07-15 15:37:17] - [app.models] - [__init__.py] - 12 - INFO - All model classes imported: User, Post, Comment
+[2025-07-15 15:37:17] - [app.schemas.post_schema] - [post_schema.py] - 8 - INFO - Initializing PostSchema for serialization and deserialization.
+[2025-07-15 15:37:17] - [app.schemas.post_schema] - [post_schema.py] - 37 - INFO - PostSchema instances initialized successfully.
+[2025-07-15 15:37:17] - [app.schemas.comment_schema] - [comment_schema.py] - 8 - INFO - Initializing CommentSchema for Marshmallow serialization.
+[2025-07-15 15:37:17] - [app.schemas.comment_schema] - [comment_schema.py] - 40 - INFO - CommentSchema instances created successfully.
+[2025-07-15 15:37:17] - [__main__] - [run.py] - 16 - INFO - Checking and creating database if necessary...
+[2025-07-15 15:37:17] - [db.create_db] - [create_db.py] - 26 - INFO - Connecting to default 'postgres' database to check/create target database.
+[2025-07-15 15:37:17] - [db.create_db] - [create_db.py] - 47 - INFO - ℹDatabase 'blogdb' already exists.
+[2025-07-15 15:37:17] - [db.create_db] - [create_db.py] - 62 - INFO - Connecting to 'blogdb' database to create tables.
+[2025-07-15 15:37:17] - [db.create_db] - [create_db.py] - 105 - INFO - Tables created successfully in the database.
+[2025-07-15 15:37:17] - [__main__] - [run.py] - 19 - INFO - Database and tables are ready.
+[2025-07-15 15:37:17] - [app] - [__init__.py] - 21 - INFO - Flask app instance created.
+[2025-07-15 15:37:17] - [app] - [__init__.py] - 25 - INFO - Configuration loaded into Flask app.
+[2025-07-15 15:37:17] - [app] - [__init__.py] - 29 - INFO - SQLAlchemy initialized.
+[2025-07-15 15:37:17] - [app] - [__init__.py] - 32 - INFO - Flask-Migrate initialized.
+[2025-07-15 15:37:17] - [app] - [__init__.py] - 35 - INFO - JWT Manager initialized.
+[2025-07-15 15:37:17] - [app] - [__init__.py] - 38 - INFO - Marshmallow initialized.
+[2025-07-15 15:37:17] - [app] - [__init__.py] - 48 - INFO - Blueprints registered successfully.
+[2025-07-15 15:37:17] - [app] - [__init__.py] - 50 - INFO - Flask application setup completed successfully.
+[2025-07-15 15:37:17] - [__main__] - [run.py] - 26 - INFO - Flask application instance created successfully.
+[2025-07-15 15:37:17] - [__main__] - [run.py] - 51 - INFO - Starting Flask app on http://0.0.0.0:5000
+[2025-07-15 15:37:17] - [app.config] - [config.py] - 7 - INFO - Loading environment variables from .env file.
+[2025-07-15 15:37:17] - [app.config] - [config.py] - 27 - INFO - SQLALCHEMY_DATABASE_URI loaded successfully.
+[2025-07-15 15:37:17] - [app.config] - [config.py] - 33 - INFO - JWT_SECRET_KEY loaded successfully.
+[2025-07-15 15:37:17] - [app.config] - [config.py] - 39 - INFO - DEBUG mode set to: True
+[2025-07-15 15:37:17] - [app.config] - [config.py] - 40 - INFO - Configuration loaded successfully.
+[2025-07-15 15:37:18] - [app.extensions] - [extensions.py] - 9 - INFO - Starting Flask extension initialization.
+[2025-07-15 15:37:18] - [app.extensions] - [extensions.py] - 15 - INFO - SQLAlchemy initialized successfully.
+[2025-07-15 15:37:18] - [app.extensions] - [extensions.py] - 23 - INFO - Flask-Migrate initialized successfully.
+[2025-07-15 15:37:18] - [app.extensions] - [extensions.py] - 31 - INFO - JWTManager initialized successfully.
+[2025-07-15 15:37:18] - [app.extensions] - [extensions.py] - 39 - INFO - Marshmallow initialized successfully.
+[2025-07-15 15:37:18] - [app.extensions] - [extensions.py] - 44 - INFO - All Flask extensions initialized without errors.
+[2025-07-15 15:37:18] - [app.models.user] - [user.py] - 28 - INFO - User model loaded and mapped to table 'users'
+[2025-07-15 15:37:18] - [app.models.post] - [post.py] - 33 - INFO - Post model loaded and mapped to table 'posts'
+[2025-07-15 15:37:18] - [app.models.comment] - [comment.py] - 22 - INFO - Comment model loaded and mapped to table 'comments'
+[2025-07-15 15:37:18] - [app.models] - [__init__.py] - 12 - INFO - All model classes imported: User, Post, Comment
+[2025-07-15 15:37:18] - [app.schemas.post_schema] - [post_schema.py] - 8 - INFO - Initializing PostSchema for serialization and deserialization.
+[2025-07-15 15:37:18] - [app.schemas.post_schema] - [post_schema.py] - 37 - INFO - PostSchema instances initialized successfully.
+[2025-07-15 15:37:18] - [app.schemas.comment_schema] - [comment_schema.py] - 8 - INFO - Initializing CommentSchema for Marshmallow serialization.
+[2025-07-15 15:37:18] - [app.schemas.comment_schema] - [comment_schema.py] - 40 - INFO - CommentSchema instances created successfully.
+[2025-07-15 15:37:18] - [__main__] - [run.py] - 16 - INFO - Checking and creating database if necessary...
+[2025-07-15 15:37:18] - [db.create_db] - [create_db.py] - 26 - INFO - Connecting to default 'postgres' database to check/create target database.
+[2025-07-15 15:37:18] - [db.create_db] - [create_db.py] - 47 - INFO - ℹDatabase 'blogdb' already exists.
+[2025-07-15 15:37:18] - [db.create_db] - [create_db.py] - 62 - INFO - Connecting to 'blogdb' database to create tables.
+[2025-07-15 15:37:18] - [db.create_db] - [create_db.py] - 105 - INFO - Tables created successfully in the database.
+[2025-07-15 15:37:18] - [__main__] - [run.py] - 19 - INFO - Database and tables are ready.
+[2025-07-15 15:37:18] - [app] - [__init__.py] - 21 - INFO - Flask app instance created.
+[2025-07-15 15:37:18] - [app] - [__init__.py] - 25 - INFO - Configuration loaded into Flask app.
+[2025-07-15 15:37:18] - [app] - [__init__.py] - 29 - INFO - SQLAlchemy initialized.
+[2025-07-15 15:37:18] - [app] - [__init__.py] - 32 - INFO - Flask-Migrate initialized.
+[2025-07-15 15:37:18] - [app] - [__init__.py] - 35 - INFO - JWT Manager initialized.
+[2025-07-15 15:37:18] - [app] - [__init__.py] - 38 - INFO - Marshmallow initialized.
+[2025-07-15 15:37:18] - [app] - [__init__.py] - 48 - INFO - Blueprints registered successfully.
+[2025-07-15 15:37:18] - [app] - [__init__.py] - 50 - INFO - Flask application setup completed successfully.
+[2025-07-15 15:37:18] - [__main__] - [run.py] - 26 - INFO - Flask application instance created successfully.
+[2025-07-15 15:37:18] - [__main__] - [run.py] - 51 - INFO - Starting Flask app on http://0.0.0.0:5000
+[2025-07-15 17:09:26] - [app.config] - [config.py] - 7 - INFO - Loading environment variables from .env file.
+[2025-07-15 17:09:26] - [app.config] - [config.py] - 27 - INFO - SQLALCHEMY_DATABASE_URI loaded successfully.
+[2025-07-15 17:09:26] - [app.config] - [config.py] - 33 - INFO - JWT_SECRET_KEY loaded successfully.
+[2025-07-15 17:09:26] - [app.config] - [config.py] - 39 - INFO - DEBUG mode set to: True
+[2025-07-15 17:09:26] - [app.config] - [config.py] - 40 - INFO - Configuration loaded successfully.
+[2025-07-15 17:09:26] - [app.extensions] - [extensions.py] - 9 - INFO - Starting Flask extension initialization.
+[2025-07-15 17:09:26] - [app.extensions] - [extensions.py] - 15 - INFO - SQLAlchemy initialized successfully.
+[2025-07-15 17:09:26] - [app.extensions] - [extensions.py] - 23 - INFO - Flask-Migrate initialized successfully.
+[2025-07-15 17:09:26] - [app.extensions] - [extensions.py] - 31 - INFO - JWTManager initialized successfully.
+[2025-07-15 17:09:26] - [app.extensions] - [extensions.py] - 39 - INFO - Marshmallow initialized successfully.
+[2025-07-15 17:09:26] - [app.extensions] - [extensions.py] - 44 - INFO - All Flask extensions initialized without errors.
+[2025-07-15 17:09:26] - [app.models.user] - [user.py] - 28 - INFO - User model loaded and mapped to table 'users'
+[2025-07-15 17:09:26] - [app.models.post] - [post.py] - 33 - INFO - Post model loaded and mapped to table 'posts'
+[2025-07-15 17:09:26] - [app.models.comment] - [comment.py] - 22 - INFO - Comment model loaded and mapped to table 'comments'
+[2025-07-15 17:09:26] - [app.models] - [__init__.py] - 12 - INFO - All model classes imported: User, Post, Comment
+[2025-07-15 17:09:26] - [app.schemas.post_schema] - [post_schema.py] - 8 - INFO - Initializing PostSchema for serialization and deserialization.
+[2025-07-15 17:09:26] - [app.schemas.post_schema] - [post_schema.py] - 37 - INFO - PostSchema instances initialized successfully.
+[2025-07-15 17:09:26] - [app.schemas.comment_schema] - [comment_schema.py] - 8 - INFO - Initializing CommentSchema for Marshmallow serialization.
+[2025-07-15 17:09:26] - [app.schemas.comment_schema] - [comment_schema.py] - 40 - INFO - CommentSchema instances created successfully.
+[2025-07-15 17:09:27] - [app.swagger_config] - [swagger_config.py] - 43 - INFO - Swagger template loaded successfully.
+[2025-07-15 17:09:27] - [__main__] - [run.py] - 16 - INFO - Checking and creating database if necessary...
+[2025-07-15 17:09:27] - [db.create_db] - [create_db.py] - 26 - INFO - Connecting to default 'postgres' database to check/create target database.
+[2025-07-15 17:09:27] - [db.create_db] - [create_db.py] - 47 - INFO - ℹDatabase 'blogdb' already exists.
+[2025-07-15 17:09:27] - [db.create_db] - [create_db.py] - 62 - INFO - Connecting to 'blogdb' database to create tables.
+[2025-07-15 17:09:27] - [db.create_db] - [create_db.py] - 105 - INFO - Tables created successfully in the database.
+[2025-07-15 17:09:27] - [__main__] - [run.py] - 19 - INFO - Database and tables are ready.
+[2025-07-15 17:09:27] - [app] - [__init__.py] - 22 - INFO - Flask app instance created.
+[2025-07-15 17:09:27] - [app] - [__init__.py] - 26 - INFO - Configuration loaded into Flask app.
+[2025-07-15 17:09:27] - [app] - [__init__.py] - 30 - INFO - SQLAlchemy initialized.
+[2025-07-15 17:09:27] - [app] - [__init__.py] - 33 - INFO - Flask-Migrate initialized.
+[2025-07-15 17:09:27] - [app] - [__init__.py] - 36 - INFO - JWT Manager initialized.
+[2025-07-15 17:09:27] - [app] - [__init__.py] - 39 - INFO - Marshmallow initialized.
+[2025-07-15 17:09:27] - [app] - [__init__.py] - 44 - INFO - Swagger UI initialized successfully.
+[2025-07-15 17:09:27] - [app] - [__init__.py] - 56 - INFO - Blueprints registered successfully.
+[2025-07-15 17:09:27] - [app] - [__init__.py] - 58 - INFO - Flask application setup completed successfully.
+[2025-07-15 17:09:27] - [__main__] - [run.py] - 26 - INFO - Flask application instance created successfully.
+[2025-07-15 17:09:27] - [__main__] - [run.py] - 51 - INFO - Starting Flask app on http://0.0.0.0:5000
+[2025-07-15 17:09:27] - [app.config] - [config.py] - 7 - INFO - Loading environment variables from .env file.
+[2025-07-15 17:09:27] - [app.config] - [config.py] - 27 - INFO - SQLALCHEMY_DATABASE_URI loaded successfully.
+[2025-07-15 17:09:27] - [app.config] - [config.py] - 33 - INFO - JWT_SECRET_KEY loaded successfully.
+[2025-07-15 17:09:27] - [app.config] - [config.py] - 39 - INFO - DEBUG mode set to: True
+[2025-07-15 17:09:27] - [app.config] - [config.py] - 40 - INFO - Configuration loaded successfully.
+[2025-07-15 17:09:28] - [app.extensions] - [extensions.py] - 9 - INFO - Starting Flask extension initialization.
+[2025-07-15 17:09:28] - [app.extensions] - [extensions.py] - 15 - INFO - SQLAlchemy initialized successfully.
+[2025-07-15 17:09:28] - [app.extensions] - [extensions.py] - 23 - INFO - Flask-Migrate initialized successfully.
+[2025-07-15 17:09:28] - [app.extensions] - [extensions.py] - 31 - INFO - JWTManager initialized successfully.
+[2025-07-15 17:09:28] - [app.extensions] - [extensions.py] - 39 - INFO - Marshmallow initialized successfully.
+[2025-07-15 17:09:28] - [app.extensions] - [extensions.py] - 44 - INFO - All Flask extensions initialized without errors.
+[2025-07-15 17:09:28] - [app.models.user] - [user.py] - 28 - INFO - User model loaded and mapped to table 'users'
+[2025-07-15 17:09:28] - [app.models.post] - [post.py] - 33 - INFO - Post model loaded and mapped to table 'posts'
+[2025-07-15 17:09:28] - [app.models.comment] - [comment.py] - 22 - INFO - Comment model loaded and mapped to table 'comments'
+[2025-07-15 17:09:28] - [app.models] - [__init__.py] - 12 - INFO - All model classes imported: User, Post, Comment
+[2025-07-15 17:09:28] - [app.schemas.post_schema] - [post_schema.py] - 8 - INFO - Initializing PostSchema for serialization and deserialization.
+[2025-07-15 17:09:28] - [app.schemas.post_schema] - [post_schema.py] - 37 - INFO - PostSchema instances initialized successfully.
+[2025-07-15 17:09:28] - [app.schemas.comment_schema] - [comment_schema.py] - 8 - INFO - Initializing CommentSchema for Marshmallow serialization.
+[2025-07-15 17:09:28] - [app.schemas.comment_schema] - [comment_schema.py] - 40 - INFO - CommentSchema instances created successfully.
+[2025-07-15 17:09:28] - [app.swagger_config] - [swagger_config.py] - 43 - INFO - Swagger template loaded successfully.
+[2025-07-15 17:09:28] - [__main__] - [run.py] - 16 - INFO - Checking and creating database if necessary...
+[2025-07-15 17:09:28] - [db.create_db] - [create_db.py] - 26 - INFO - Connecting to default 'postgres' database to check/create target database.
+[2025-07-15 17:09:28] - [db.create_db] - [create_db.py] - 47 - INFO - ℹDatabase 'blogdb' already exists.
+[2025-07-15 17:09:28] - [db.create_db] - [create_db.py] - 62 - INFO - Connecting to 'blogdb' database to create tables.
+[2025-07-15 17:09:28] - [db.create_db] - [create_db.py] - 105 - INFO - Tables created successfully in the database.
+[2025-07-15 17:09:28] - [__main__] - [run.py] - 19 - INFO - Database and tables are ready.
+[2025-07-15 17:09:28] - [app] - [__init__.py] - 22 - INFO - Flask app instance created.
+[2025-07-15 17:09:28] - [app] - [__init__.py] - 26 - INFO - Configuration loaded into Flask app.
+[2025-07-15 17:09:28] - [app] - [__init__.py] - 30 - INFO - SQLAlchemy initialized.
+[2025-07-15 17:09:28] - [app] - [__init__.py] - 33 - INFO - Flask-Migrate initialized.
+[2025-07-15 17:09:28] - [app] - [__init__.py] - 36 - INFO - JWT Manager initialized.
+[2025-07-15 17:09:28] - [app] - [__init__.py] - 39 - INFO - Marshmallow initialized.
+[2025-07-15 17:09:28] - [app] - [__init__.py] - 44 - INFO - Swagger UI initialized successfully.
+[2025-07-15 17:09:28] - [app] - [__init__.py] - 56 - INFO - Blueprints registered successfully.
+[2025-07-15 17:09:28] - [app] - [__init__.py] - 58 - INFO - Flask application setup completed successfully.
+[2025-07-15 17:09:28] - [__main__] - [run.py] - 26 - INFO - Flask application instance created successfully.
+[2025-07-15 17:09:28] - [__main__] - [run.py] - 51 - INFO - Starting Flask app on http://0.0.0.0:5000
+[2025-07-15 17:12:38] - [app.config] - [config.py] - 7 - INFO - Loading environment variables from .env file.
+[2025-07-15 17:12:38] - [app.config] - [config.py] - 27 - INFO - SQLALCHEMY_DATABASE_URI loaded successfully.
+[2025-07-15 17:12:38] - [app.config] - [config.py] - 33 - INFO - JWT_SECRET_KEY loaded successfully.
+[2025-07-15 17:12:38] - [app.config] - [config.py] - 39 - INFO - DEBUG mode set to: True
+[2025-07-15 17:12:38] - [app.config] - [config.py] - 40 - INFO - Configuration loaded successfully.
+[2025-07-15 17:12:39] - [app.extensions] - [extensions.py] - 9 - INFO - Starting Flask extension initialization.
+[2025-07-15 17:12:39] - [app.extensions] - [extensions.py] - 15 - INFO - SQLAlchemy initialized successfully.
+[2025-07-15 17:12:39] - [app.extensions] - [extensions.py] - 23 - INFO - Flask-Migrate initialized successfully.
+[2025-07-15 17:12:39] - [app.extensions] - [extensions.py] - 31 - INFO - JWTManager initialized successfully.
+[2025-07-15 17:12:39] - [app.extensions] - [extensions.py] - 39 - INFO - Marshmallow initialized successfully.
+[2025-07-15 17:12:39] - [app.extensions] - [extensions.py] - 44 - INFO - All Flask extensions initialized without errors.
+[2025-07-15 17:12:39] - [app.models.user] - [user.py] - 28 - INFO - User model loaded and mapped to table 'users'
+[2025-07-15 17:12:39] - [app.models.post] - [post.py] - 33 - INFO - Post model loaded and mapped to table 'posts'
+[2025-07-15 17:12:39] - [app.models.comment] - [comment.py] - 22 - INFO - Comment model loaded and mapped to table 'comments'
+[2025-07-15 17:12:39] - [app.models] - [__init__.py] - 12 - INFO - All model classes imported: User, Post, Comment
+[2025-07-15 17:12:39] - [app.schemas.post_schema] - [post_schema.py] - 8 - INFO - Initializing PostSchema for serialization and deserialization.
+[2025-07-15 17:12:39] - [app.schemas.post_schema] - [post_schema.py] - 37 - INFO - PostSchema instances initialized successfully.
+[2025-07-15 17:12:39] - [app.schemas.comment_schema] - [comment_schema.py] - 8 - INFO - Initializing CommentSchema for Marshmallow serialization.
+[2025-07-15 17:12:39] - [app.schemas.comment_schema] - [comment_schema.py] - 40 - INFO - CommentSchema instances created successfully.
+[2025-07-15 17:12:39] - [app.swagger_config] - [swagger_config.py] - 43 - INFO - Swagger template loaded successfully.
+[2025-07-15 17:12:39] - [__main__] - [run.py] - 16 - INFO - Checking and creating database if necessary...
+[2025-07-15 17:12:39] - [db.create_db] - [create_db.py] - 26 - INFO - Connecting to default 'postgres' database to check/create target database.
+[2025-07-15 17:12:39] - [db.create_db] - [create_db.py] - 47 - INFO - ℹDatabase 'blogdb' already exists.
+[2025-07-15 17:12:39] - [db.create_db] - [create_db.py] - 62 - INFO - Connecting to 'blogdb' database to create tables.
+[2025-07-15 17:12:39] - [db.create_db] - [create_db.py] - 105 - INFO - Tables created successfully in the database.
+[2025-07-15 17:12:39] - [__main__] - [run.py] - 19 - INFO - Database and tables are ready.
+[2025-07-15 17:12:39] - [app] - [__init__.py] - 22 - INFO - Flask app instance created.
+[2025-07-15 17:12:39] - [app] - [__init__.py] - 26 - INFO - Configuration loaded into Flask app.
+[2025-07-15 17:12:39] - [app] - [__init__.py] - 30 - INFO - SQLAlchemy initialized.
+[2025-07-15 17:12:39] - [app] - [__init__.py] - 33 - INFO - Flask-Migrate initialized.
+[2025-07-15 17:12:39] - [app] - [__init__.py] - 36 - INFO - JWT Manager initialized.
+[2025-07-15 17:12:39] - [app] - [__init__.py] - 39 - INFO - Marshmallow initialized.
+[2025-07-15 17:12:39] - [app] - [__init__.py] - 44 - INFO - Swagger UI initialized successfully.
+[2025-07-15 17:12:39] - [app] - [__init__.py] - 56 - INFO - Blueprints registered successfully.
+[2025-07-15 17:12:39] - [app] - [__init__.py] - 58 - INFO - Flask application setup completed successfully.
+[2025-07-15 17:12:39] - [__main__] - [run.py] - 26 - INFO - Flask application instance created successfully.
+[2025-07-15 17:12:39] - [__main__] - [run.py] - 51 - INFO - Starting Flask app on http://0.0.0.0:5000
+[2025-07-15 17:14:45] - [app.config] - [config.py] - 7 - INFO - Loading environment variables from .env file.
+[2025-07-15 17:14:45] - [app.config] - [config.py] - 27 - INFO - SQLALCHEMY_DATABASE_URI loaded successfully.
+[2025-07-15 17:14:45] - [app.config] - [config.py] - 33 - INFO - JWT_SECRET_KEY loaded successfully.
+[2025-07-15 17:14:45] - [app.config] - [config.py] - 39 - INFO - DEBUG mode set to: True
+[2025-07-15 17:14:45] - [app.config] - [config.py] - 40 - INFO - Configuration loaded successfully.
+[2025-07-15 17:14:46] - [app.extensions] - [extensions.py] - 9 - INFO - Starting Flask extension initialization.
+[2025-07-15 17:14:46] - [app.extensions] - [extensions.py] - 15 - INFO - SQLAlchemy initialized successfully.
+[2025-07-15 17:14:46] - [app.extensions] - [extensions.py] - 23 - INFO - Flask-Migrate initialized successfully.
+[2025-07-15 17:14:46] - [app.extensions] - [extensions.py] - 31 - INFO - JWTManager initialized successfully.
+[2025-07-15 17:14:46] - [app.extensions] - [extensions.py] - 39 - INFO - Marshmallow initialized successfully.
+[2025-07-15 17:14:46] - [app.extensions] - [extensions.py] - 44 - INFO - All Flask extensions initialized without errors.
+[2025-07-15 17:14:46] - [app.models.user] - [user.py] - 28 - INFO - User model loaded and mapped to table 'users'
+[2025-07-15 17:14:46] - [app.models.post] - [post.py] - 33 - INFO - Post model loaded and mapped to table 'posts'
+[2025-07-15 17:14:46] - [app.models.comment] - [comment.py] - 22 - INFO - Comment model loaded and mapped to table 'comments'
+[2025-07-15 17:14:46] - [app.models] - [__init__.py] - 12 - INFO - All model classes imported: User, Post, Comment
+[2025-07-15 17:14:46] - [app.schemas.post_schema] - [post_schema.py] - 8 - INFO - Initializing PostSchema for serialization and deserialization.
+[2025-07-15 17:14:46] - [app.schemas.post_schema] - [post_schema.py] - 37 - INFO - PostSchema instances initialized successfully.
+[2025-07-15 17:14:46] - [app.schemas.comment_schema] - [comment_schema.py] - 8 - INFO - Initializing CommentSchema for Marshmallow serialization.
+[2025-07-15 17:14:46] - [app.schemas.comment_schema] - [comment_schema.py] - 40 - INFO - CommentSchema instances created successfully.
+[2025-07-15 17:14:46] - [app.swagger_config] - [swagger_config.py] - 43 - INFO - Swagger template loaded successfully.
+[2025-07-15 17:14:46] - [__main__] - [run.py] - 16 - INFO - Checking and creating database if necessary...
+[2025-07-15 17:14:46] - [db.create_db] - [create_db.py] - 26 - INFO - Connecting to default 'postgres' database to check/create target database.
+[2025-07-15 17:14:46] - [db.create_db] - [create_db.py] - 47 - INFO - ℹDatabase 'blogdb' already exists.
+[2025-07-15 17:14:46] - [db.create_db] - [create_db.py] - 62 - INFO - Connecting to 'blogdb' database to create tables.
+[2025-07-15 17:14:46] - [db.create_db] - [create_db.py] - 105 - INFO - Tables created successfully in the database.
+[2025-07-15 17:14:46] - [__main__] - [run.py] - 19 - INFO - Database and tables are ready.
+[2025-07-15 17:14:46] - [app] - [__init__.py] - 22 - INFO - Flask app instance created.
+[2025-07-15 17:14:46] - [app] - [__init__.py] - 26 - INFO - Configuration loaded into Flask app.
+[2025-07-15 17:14:46] - [app] - [__init__.py] - 30 - INFO - SQLAlchemy initialized.
+[2025-07-15 17:14:46] - [app] - [__init__.py] - 33 - INFO - Flask-Migrate initialized.
+[2025-07-15 17:14:46] - [app] - [__init__.py] - 36 - INFO - JWT Manager initialized.
+[2025-07-15 17:14:46] - [app] - [__init__.py] - 39 - INFO - Marshmallow initialized.
+[2025-07-15 17:14:46] - [app] - [__init__.py] - 44 - INFO - Swagger UI initialized successfully.
+[2025-07-15 17:14:46] - [app] - [__init__.py] - 56 - INFO - Blueprints registered successfully.
+[2025-07-15 17:14:46] - [app] - [__init__.py] - 58 - INFO - Flask application setup completed successfully.
+[2025-07-15 17:14:46] - [__main__] - [run.py] - 26 - INFO - Flask application instance created successfully.
+[2025-07-15 17:14:46] - [__main__] - [run.py] - 51 - INFO - Starting Flask app on http://0.0.0.0:5000
+[2025-07-15 17:16:16] - [app.config] - [config.py] - 7 - INFO - Loading environment variables from .env file.
+[2025-07-15 17:16:16] - [app.config] - [config.py] - 27 - INFO - SQLALCHEMY_DATABASE_URI loaded successfully.
+[2025-07-15 17:16:16] - [app.config] - [config.py] - 33 - INFO - JWT_SECRET_KEY loaded successfully.
+[2025-07-15 17:16:16] - [app.config] - [config.py] - 39 - INFO - DEBUG mode set to: True
+[2025-07-15 17:16:16] - [app.config] - [config.py] - 40 - INFO - Configuration loaded successfully.
+[2025-07-15 17:16:17] - [app.extensions] - [extensions.py] - 9 - INFO - Starting Flask extension initialization.
+[2025-07-15 17:16:17] - [app.extensions] - [extensions.py] - 15 - INFO - SQLAlchemy initialized successfully.
+[2025-07-15 17:16:17] - [app.extensions] - [extensions.py] - 23 - INFO - Flask-Migrate initialized successfully.
+[2025-07-15 17:16:17] - [app.extensions] - [extensions.py] - 31 - INFO - JWTManager initialized successfully.
+[2025-07-15 17:16:17] - [app.extensions] - [extensions.py] - 39 - INFO - Marshmallow initialized successfully.
+[2025-07-15 17:16:17] - [app.extensions] - [extensions.py] - 44 - INFO - All Flask extensions initialized without errors.
+[2025-07-15 17:16:17] - [app.models.user] - [user.py] - 28 - INFO - User model loaded and mapped to table 'users'
+[2025-07-15 17:16:17] - [app.models.post] - [post.py] - 33 - INFO - Post model loaded and mapped to table 'posts'
+[2025-07-15 17:16:17] - [app.models.comment] - [comment.py] - 22 - INFO - Comment model loaded and mapped to table 'comments'
+[2025-07-15 17:16:17] - [app.models] - [__init__.py] - 12 - INFO - All model classes imported: User, Post, Comment
+[2025-07-15 17:16:17] - [app.schemas.post_schema] - [post_schema.py] - 8 - INFO - Initializing PostSchema for serialization and deserialization.
+[2025-07-15 17:16:17] - [app.schemas.post_schema] - [post_schema.py] - 37 - INFO - PostSchema instances initialized successfully.
+[2025-07-15 17:16:17] - [app.schemas.comment_schema] - [comment_schema.py] - 8 - INFO - Initializing CommentSchema for Marshmallow serialization.
+[2025-07-15 17:16:17] - [app.schemas.comment_schema] - [comment_schema.py] - 40 - INFO - CommentSchema instances created successfully.
+[2025-07-15 17:16:17] - [app.swagger_config] - [swagger_config.py] - 43 - INFO - Swagger template loaded successfully.
+[2025-07-15 17:16:17] - [__main__] - [run.py] - 16 - INFO - Checking and creating database if necessary...
+[2025-07-15 17:16:17] - [db.create_db] - [create_db.py] - 26 - INFO - Connecting to default 'postgres' database to check/create target database.
+[2025-07-15 17:16:17] - [db.create_db] - [create_db.py] - 47 - INFO - ℹDatabase 'blogdb' already exists.
+[2025-07-15 17:16:17] - [db.create_db] - [create_db.py] - 62 - INFO - Connecting to 'blogdb' database to create tables.
+[2025-07-15 17:16:17] - [db.create_db] - [create_db.py] - 105 - INFO - Tables created successfully in the database.
+[2025-07-15 17:16:17] - [__main__] - [run.py] - 19 - INFO - Database and tables are ready.
+[2025-07-15 17:16:17] - [app] - [__init__.py] - 22 - INFO - Flask app instance created.
+[2025-07-15 17:16:17] - [app] - [__init__.py] - 26 - INFO - Configuration loaded into Flask app.
+[2025-07-15 17:16:17] - [app] - [__init__.py] - 30 - INFO - SQLAlchemy initialized.
+[2025-07-15 17:16:17] - [app] - [__init__.py] - 33 - INFO - Flask-Migrate initialized.
+[2025-07-15 17:16:17] - [app] - [__init__.py] - 36 - INFO - JWT Manager initialized.
+[2025-07-15 17:16:17] - [app] - [__init__.py] - 39 - INFO - Marshmallow initialized.
+[2025-07-15 17:16:17] - [app] - [__init__.py] - 44 - INFO - Swagger UI initialized successfully.
+[2025-07-15 17:16:17] - [app] - [__init__.py] - 56 - INFO - Blueprints registered successfully.
+[2025-07-15 17:16:17] - [app] - [__init__.py] - 58 - INFO - Flask application setup completed successfully.
+[2025-07-15 17:16:17] - [__main__] - [run.py] - 26 - INFO - Flask application instance created successfully.
+[2025-07-15 17:16:17] - [__main__] - [run.py] - 51 - INFO - Starting Flask app on http://0.0.0.0:5000
+[2025-07-15 17:18:27] - [app.config] - [config.py] - 7 - INFO - Loading environment variables from .env file.
+[2025-07-15 17:18:27] - [app.config] - [config.py] - 27 - INFO - SQLALCHEMY_DATABASE_URI loaded successfully.
+[2025-07-15 17:18:27] - [app.config] - [config.py] - 33 - INFO - JWT_SECRET_KEY loaded successfully.
+[2025-07-15 17:18:27] - [app.config] - [config.py] - 39 - INFO - DEBUG mode set to: True
+[2025-07-15 17:18:27] - [app.config] - [config.py] - 40 - INFO - Configuration loaded successfully.
+[2025-07-15 17:18:28] - [app.extensions] - [extensions.py] - 9 - INFO - Starting Flask extension initialization.
+[2025-07-15 17:18:28] - [app.extensions] - [extensions.py] - 15 - INFO - SQLAlchemy initialized successfully.
+[2025-07-15 17:18:28] - [app.extensions] - [extensions.py] - 23 - INFO - Flask-Migrate initialized successfully.
+[2025-07-15 17:18:28] - [app.extensions] - [extensions.py] - 31 - INFO - JWTManager initialized successfully.
+[2025-07-15 17:18:28] - [app.extensions] - [extensions.py] - 39 - INFO - Marshmallow initialized successfully.
+[2025-07-15 17:18:28] - [app.extensions] - [extensions.py] - 44 - INFO - All Flask extensions initialized without errors.
+[2025-07-15 17:18:28] - [app.models.user] - [user.py] - 28 - INFO - User model loaded and mapped to table 'users'
+[2025-07-15 17:18:28] - [app.models.post] - [post.py] - 33 - INFO - Post model loaded and mapped to table 'posts'
+[2025-07-15 17:18:28] - [app.models.comment] - [comment.py] - 22 - INFO - Comment model loaded and mapped to table 'comments'
+[2025-07-15 17:18:28] - [app.models] - [__init__.py] - 12 - INFO - All model classes imported: User, Post, Comment
+[2025-07-15 17:18:28] - [app.schemas.post_schema] - [post_schema.py] - 8 - INFO - Initializing PostSchema for serialization and deserialization.
+[2025-07-15 17:18:28] - [app.schemas.post_schema] - [post_schema.py] - 37 - INFO - PostSchema instances initialized successfully.
+[2025-07-15 17:18:28] - [app.schemas.comment_schema] - [comment_schema.py] - 8 - INFO - Initializing CommentSchema for Marshmallow serialization.
+[2025-07-15 17:18:28] - [app.schemas.comment_schema] - [comment_schema.py] - 40 - INFO - CommentSchema instances created successfully.
+[2025-07-15 17:18:28] - [app.swagger_config] - [swagger_config.py] - 43 - INFO - Swagger template loaded successfully.
+[2025-07-15 17:18:28] - [__main__] - [run.py] - 16 - INFO - Checking and creating database if necessary...
+[2025-07-15 17:18:28] - [db.create_db] - [create_db.py] - 26 - INFO - Connecting to default 'postgres' database to check/create target database.
+[2025-07-15 17:18:28] - [db.create_db] - [create_db.py] - 47 - INFO - ℹDatabase 'blogdb' already exists.
+[2025-07-15 17:18:28] - [db.create_db] - [create_db.py] - 62 - INFO - Connecting to 'blogdb' database to create tables.
+[2025-07-15 17:18:28] - [db.create_db] - [create_db.py] - 105 - INFO - Tables created successfully in the database.
+[2025-07-15 17:18:28] - [__main__] - [run.py] - 19 - INFO - Database and tables are ready.
+[2025-07-15 17:18:28] - [app] - [__init__.py] - 22 - INFO - Flask app instance created.
+[2025-07-15 17:18:28] - [app] - [__init__.py] - 26 - INFO - Configuration loaded into Flask app.
+[2025-07-15 17:18:28] - [app] - [__init__.py] - 30 - INFO - SQLAlchemy initialized.
+[2025-07-15 17:18:28] - [app] - [__init__.py] - 33 - INFO - Flask-Migrate initialized.
+[2025-07-15 17:18:28] - [app] - [__init__.py] - 36 - INFO - JWT Manager initialized.
+[2025-07-15 17:18:28] - [app] - [__init__.py] - 39 - INFO - Marshmallow initialized.
+[2025-07-15 17:18:28] - [app] - [__init__.py] - 44 - INFO - Swagger UI initialized successfully.
+[2025-07-15 17:18:28] - [app] - [__init__.py] - 56 - INFO - Blueprints registered successfully.
+[2025-07-15 17:18:28] - [app] - [__init__.py] - 58 - INFO - Flask application setup completed successfully.
+[2025-07-15 17:18:28] - [__main__] - [run.py] - 26 - INFO - Flask application instance created successfully.
+[2025-07-15 17:18:28] - [__main__] - [run.py] - 51 - INFO - Starting Flask app on http://0.0.0.0:5000
+[2025-07-15 17:22:27] - [app.services.auth_service] - [auth_service.py] - 23 - INFO - Attempting to register user: Dyuti2004 (dyutidasgupta2004@gmail.com)
+[2025-07-15 17:22:27] - [app.services.auth_service] - [auth_service.py] - 23 - INFO - Attempting to register user: Dyuti2004 (dyutidasgupta2004@gmail.com)
+[2025-07-15 17:22:27] - [app.services.auth_service] - [auth_service.py] - 41 - INFO - User registered successfully: Dyuti2004 (ID: 2)
+[2025-07-15 17:22:27] - [app.services.auth_service] - [auth_service.py] - 41 - INFO - User registered successfully: Dyuti2004 (ID: 2)
+[2025-07-15 17:22:27] - [app.routes.auth_routes] - [auth_routes.py] - 98 - INFO - User registered: Dyuti2004 (ID: 2)
+[2025-07-15 17:22:27] - [app.routes.auth_routes] - [auth_routes.py] - 98 - INFO - User registered: Dyuti2004 (ID: 2)
+[2025-07-15 17:23:33] - [app.services.auth_service] - [auth_service.py] - 62 - INFO - Authenticating user: Dyuti2004
+[2025-07-15 17:23:33] - [app.services.auth_service] - [auth_service.py] - 62 - INFO - Authenticating user: Dyuti2004
+[2025-07-15 17:23:33] - [app.services.auth_service] - [auth_service.py] - 69 - INFO - User authenticated successfully: Dyuti2004
+[2025-07-15 17:23:33] - [app.services.auth_service] - [auth_service.py] - 69 - INFO - User authenticated successfully: Dyuti2004
+[2025-07-15 17:23:33] - [app.routes.auth_routes] - [auth_routes.py] - 164 - INFO - User logged in: Dyuti2004 (ID: 2)
+[2025-07-15 17:23:33] - [app.routes.auth_routes] - [auth_routes.py] - 164 - INFO - User logged in: Dyuti2004 (ID: 2)
+[2025-07-15 17:33:53] - [app.utils.decorators] - [decorators.py] - 38 - INFO - Authenticated user: Dyuti2004 (ID: 2)
+[2025-07-15 17:33:53] - [app.utils.decorators] - [decorators.py] - 38 - INFO - Authenticated user: Dyuti2004 (ID: 2)
+[2025-07-15 17:33:53] - [app.routes.post_routes] - [post_routes.py] - 59 - INFO - Post created by user 2: Post ID 1
+[2025-07-15 17:33:53] - [app.routes.post_routes] - [post_routes.py] - 59 - INFO - Post created by user 2: Post ID 1
+[2025-07-15 17:35:06] - [app.utils.decorators] - [decorators.py] - 38 - INFO - Authenticated user: Dyuti2004 (ID: 2)
+[2025-07-15 17:35:06] - [app.utils.decorators] - [decorators.py] - 38 - INFO - Authenticated user: Dyuti2004 (ID: 2)
+[2025-07-15 17:35:06] - [app.routes.post_routes] - [post_routes.py] - 163 - INFO - Post 1 updated by user 2
+[2025-07-15 17:35:06] - [app.routes.post_routes] - [post_routes.py] - 163 - INFO - Post 1 updated by user 2
+[2025-07-15 17:35:49] - [app.routes.post_routes] - [post_routes.py] - 79 - INFO - Fetched all posts.
+[2025-07-15 17:35:49] - [app.routes.post_routes] - [post_routes.py] - 79 - INFO - Fetched all posts.
+[2025-07-15 17:36:06] - [app.utils.decorators] - [decorators.py] - 38 - INFO - Authenticated user: Dyuti2004 (ID: 2)
+[2025-07-15 17:36:06] - [app.utils.decorators] - [decorators.py] - 38 - INFO - Authenticated user: Dyuti2004 (ID: 2)
+[2025-07-15 17:36:06] - [app.routes.post_routes] - [post_routes.py] - 201 - INFO - Post 1 deleted by user 2
+[2025-07-15 17:36:06] - [app.routes.post_routes] - [post_routes.py] - 201 - INFO - Post 1 deleted by user 2
