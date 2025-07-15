@@ -7,17 +7,19 @@ A fully featured **RESTful Blog API** built using Flask, SQLAlchemy, Marshmallow
 ## 📚 Table of Contents
 
 1. [Overview](#overview)
-2. [Codebase Structure](#codebase-structure)
-3. [Environment Setup](#environment-setup)
+2. [Tools & Technologies Used](#tools--technologies-used)
+3. [Project Methodology](#project-methodology)
+4. [Codebase Structure](#codebase-structure)
+5. [Environment Setup](#environment-setup)
     - [Using Conda](#using-conda)
     - [Using Python venv](#using-python-venv)
-4. [Cloning the Repository](#cloning-the-repository)
-5. [Installing Dependencies](#installing-dependencies)
-6. [Setting up Environment Variables](#setting-up-environment-variables)
-7. [Database Setup](#database-setup)
-8. [Running the Application](#running-the-application)
-9. [Using the API](#using-the-api)
-10. [API User Guide](#api-user-guide)
+6. [Cloning the Repository](#cloning-the-repository)
+7. [Installing Dependencies](#installing-dependencies)
+8. [Setting up Environment Variables](#setting-up-environment-variables)
+9. [Database Setup](#database-setup)
+10. [Running the Application](#running-the-application)
+11. [Using the API](#using-the-api)
+12. [API User Guide](#api-user-guide)
 
 ---
 
