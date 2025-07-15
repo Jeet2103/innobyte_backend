@@ -114,8 +114,8 @@ source blogapi/bin/activate    # On Unix/macOS
 ## 🔄 Cloning the Repository
 
 ```bash
-git clone https://github.com/your-username/your-blog-api-repo.git
-cd your-blog-api-repo
+git clone https://github.com/your-username/innobyte_backend.git
+cd innobyte_backend
 ```
 
 ---
@@ -134,11 +134,14 @@ Create a `.env` file in the root directory with the following content:
 
 ```env
 FLASK_ENV=development
+FLASK_APP=run.py
+DEBUG=True
 DB_NAME=blogdb
 DB_USER=postgres
 DB_PASSWORD=your_db_password
 DB_HOST=localhost
 DB_PORT=5432
+DATABASE_URL = postgresql://<username>:<password>@<host>:<port>/<database_name>
 JWT_SECRET_KEY=your_secret_key
 ```
 
@@ -180,7 +183,10 @@ To view Swagger UI:
 
 ## 🧪 Using the API
 
-Refer to [USER_GUIDE.md](./USER_GUIDE.md) for complete usage instructions, including authentication flow and example requests using Swagger, Postman, and curl.
+- Refer to [docs/api_endpoints.md](docs/api_endpoints.md) for a complete list of API endpoints, request/response formats, route methods, and response status codes.
+
+
+- Refer to [USER_GUIDE.md](./USER_GUIDE.md) for complete usage instructions, including authentication flow and example requests using Swagger, Postman, and curl.
 
 ---
 
